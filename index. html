@@ -1,0 +1,65 @@
+DOCTYPE html>
+<html>
+<head>
+    <title>Fashion Hub</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body style="background-color: lightblue; font-family: Arial, sans-serif; margin: 20px;">
+
+    <div style="background-color: darkblue; color: white; padding: 20px; text-align: center; border-radius: 10px;">
+        <h1>FASHION HUB</h1>
+        <p>Your Style, Your Confidence!</p>
+    </div>
+
+    <p style="text-align: center;">
+        <a href="#home">Home</a> |
+        <a href="#collection">Collection</a> |
+        <a href="#contact">Contact</a>
+    </p>
+
+    <div id="home" style="text-align: center; padding: 20px 0;">
+        <h2 style="color: darkblue;">Welcome to Fashion Hub!</h2>
+        <p>Discover stylish clothes at affordable prices.</p>
+        <p>Look good, feel confident, and express your style.</p>
+    </div>
+
+    <div id="collection" style="background-color: white; padding: 15px; border-radius: 10px;">
+        <h2 style="color: darkblue; text-align: center;">Our Collection</h2>
+
+        <hr>
+
+        <h3>1. Stylish Shirts</h3>
+        <img src="https://placehold.co/300x180?text=Stylish+Shirts" alt="Stylish shirts" style="width: 100%; max-width: 300px;">
+        <p>Quality shirts for every occasion.</p>
+        <p style="color: darkblue; font-weight: bold;">Price: ₦15,000</p>
+
+        <hr>
+
+        <h3>2. Trousers</h3>
+        <img src="https://placehold.co/300x180?text=Fashionable+Trousers" alt="Fashionable trousers" style="width: 100%; max-width: 300px;">
+        <p>Smart and casual trousers for your everyday look.</p>
+        <p style="color: darkblue; font-weight: bold;">Price: ₦20,000</p>
+
+        <hr>
+
+        <h3>3. Shoes</h3>
+        <img src="https://placehold.co/300x180?text=Stylish+Shoes" alt="Stylish shoes" style="width: 100%; max-width: 300px;">
+        <p>Step out in style with our footwear collection.</p>
+        <p style="color: darkblue; font-weight: bold;">Price: ₦25,000</p>
+    </div>
+
+    <div id="contact" style="text-align: center; padding: 25px 0;">
+        <h2>Contact Us</h2>
+        <p>Interested in any of our products? Send us a message!</p>
+
+        <a href="https://wa.me/2349130355301"
+           style="background-color: darkblue; color: white; padding: 15px 20px; border-radius: 8px; text-decoration: none; display: inline-block;">
+           Chat With Us on WhatsApp
+        </a>
+
+        <p style="font-size: 12px;">Fashion Hub — Your Style, Your Confidence!</p>
+    </div>
+
+</body>
+</html
