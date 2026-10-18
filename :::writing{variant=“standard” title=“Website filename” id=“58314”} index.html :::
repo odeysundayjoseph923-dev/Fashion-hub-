@@ -1,0 +1,124 @@
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f5f5f5;
+        color: #222;
+    }
+
+    header {
+        background-color: #111;
+        color: white;
+        text-align: center;
+        padding: 25px;
+    }
+
+    nav {
+        background-color: #333;
+        padding: 15px;
+        text-align: center;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin: 12px;
+    }
+
+    .hero {
+        background-color: #e8c6c6;
+        text-align: center;
+        padding: 60px 20px;
+    }
+
+    .hero h2 {
+        font-size: 32px;
+    }
+
+    .products {
+        padding: 25px;
+        text-align: center;
+    }
+
+    .product {
+        background-color: white;
+        display: inline-block;
+        width: 250px;
+        margin: 10px;
+        padding: 15px;
+        border-radius: 10px;
+    }
+
+    .product img {
+        width: 100%;
+        border-radius: 8px;
+    }
+
+    button {
+        background-color: #111;
+        color: white;
+        border: none;
+        padding: 12px 20px;
+        border-radius: 5px;
+    }
+
+    footer {
+        background-color: #111;
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+</style>
+
+<header>
+    <h1>FASHION HUB</h1>
+    <p>Your Style, Your Identity!</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero" id="home">
+    <h2>Welcome to Fashion Hub</h2>
+    <p>Discover your style with our latest fashion collections.</p>
+    <a href="#products">
+        <button>Shop Now</button>
+    </a>
+</section>
+
+<section class="products" id="products">
+    <h2>Our Collections</h2>
+
+    <div class="product">
+        <img src="https://placehold.co/400x300?text=Men%27s+Fashion"
+             alt="Men's fashion">
+        <h3>Men's Fashion</h3>
+        <p>Stylish outfits for every occasion.</p>
+        <p>Contact us to order.</p>
+    </div>
+
+    <div class="product">
+        <img src="https://placehold.co/400x300?text=Women%27s+Fashion"
+             alt="Women's fashion">
+        <h3>Women's Fashion</h3>
+        <p>Beautiful styles for every occasion.</p>
+        <p>Contact us to order.</p>
+    </div>
+
+    <div class="product">
+        <img src="https://placehold.co/400x300?text=Shoes+%26+Accessories"
+             alt="Shoes and accessories">
+        <h3>Shoes & Accessories</h3>
+        <p>Complete your look with the right accessories.</p>
+        <p>Contact us to order.</p>
+    </div>
+</section>
+
+<footer id="contact">
+    <h3>Contact Fashion Hub</h3>
+    <p>Email: your-email@example.com</p>
+    <p>&copy; 2026 Fashion Hub. All rights reserved.</p>
+</footer>
